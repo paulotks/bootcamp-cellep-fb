@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo Portfolio</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <p>Paulo Lopes</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#precos">Preços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contatos">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fim Menu de Navegação -->
+
+    <!--Carrosel-->
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" style="background-image: url('https://images.unsplash.com/photo-1586717799252-bd134ad00e26?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="display-4">Site Original</h2>
+                        <p class="lead">This is a description for the first slide.</p>
+                    </div>
+                </div>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1521391406205-4a6af174a4c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1375&q=80')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="display-4">Interface interativa</h2>
+                        <p class="lead">This is a description for the second slide.</p>
+                    </div>
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('https://img.freepik.com/vetores-gratis/aplicativo-movel-neomorfico-ui-ux-kit-compras-on-line-estilo-neomorfismo-exclusivo_9209-3166.jpg?size=626&ext=jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="display-4">Responsivo</h2>
+                        <p class="lead">This is a description for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+
+    <!--Fim do Carrosel-->
+
+    <div class="container marketing">
+
+        <!-- Três colunas de texto, abaixo do carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80" alt="Generic placeholder image" width="140" height="140">
+                <h2>UI/UX</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=700&q=80" alt="Generic placeholder image" width="140" height="140">
+                <h2>Site</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1491&q=80" alt="Generic placeholder image" width="140" height="140">
+                <h2>Hospedagem</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div>
+
+
+    <!--Fim das colunas-->
+    <!-- <hr class="featurette-divider"> -->
+
+    <a id="sobre"></a>
+    <div class="container">
+
+
+        <!--Sobre-->
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Oi tudo bem?</h2>
+                <p class="lead">Meu nome é Paulo Eduardo, Sou Web designer
+                    <br /><br />
+                    Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Mauris nec dolor in eros commodo tempor. Aenean aliquam
+                    <br /><br />
+                    molestie leo, vitae iaculis nisl. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Atirei o pau no gatis, per gatis num morreus.
+                </p>
+            </div>
+
+        </div>
+        <!--Fim do Sobre-->
+
+
+
+
+
+        <div class="portfolio-sites">
+            <img class="rounded mx-auto d-block" src="https://www.criacaositesbaratos.com.br/wp-content/uploads/2018/05/criacao-de-sites-profissionais.png" alt="">
+
+
+        </div>
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                    <h2 class="display-5">Outro título</h2>
+                    <p class="lead">E outra descrição mais engraçadinha ainda.</p>
+                </div>
+                <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+            </div>
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-5">Outro título</h2>
+                    <p class="lead">E outra descrição mais engraçadinha ainda.</p>
+                </div>
+                <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+            </div>
+        </div>
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                    <h2 class="display-5">Outro título</h2>
+                    <p class="lead">E outra descrição mais engraçadinha ainda.</p>
+                </div>
+                <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+            </div>
+            <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-5">Outro título</h2>
+                    <p class="lead">E outra descrição mais engraçadinha ainda.</p>
+                </div>
+                <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+            </div>
+        </div>
+
+        <!--Contatos-->
+        <a id="contatos"></a>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Contatos</h1>
+            <p class="lead">Entre em contato:
+            <p>
+                <a target="_blank" href="https://www.instagram.com/">
+                    <button class="btn btn-outline-secondary"><i class="fab fa-instagram"></i> Instagram</button>
+                </a>
+
+                <a target="_blank" href="https://api.whatsapp.com/">
+                    <button class="btn btn-outline-secondary"><i class="fab fa-whatsapp"></i> Whatsapp</button>
+                </a>
+            </p>
+
+        </div>
+        <!--Fim do Contatos-->
+        <!--footer-->
+
+        <footer class="footer mt-auto py-3">
+            <div class="container">
+                <span class="text-muted">copyright 5526584.</span>
+            </div>
+        </footer>
+
+        <!--fim dofooter-->
+
+
+
+
+
+
+
+</body>
+
+</html>
